@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGoodShoop</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>AGoodShoop</h1>
+
+    <div class="contenedor_tienda">
+        <section class="seccion_catalogo">
+            <table class="tabla_productos">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Pr. Unidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="lista_productos"></tbody>
+            </table>
+        </section>
+
+        <div class="panel_resumen">
+            <div class="resumen_contenido">
+                <h2>Total</h2>
+                <ul id="lineas_pedido" class="lista_resumen"></ul>
+            </div>
+
+            <div class="pie">
+                <span>TOTAL</span>
+                <span id="precio_final">0.00€</span>
+            </div>
+        </div>
+    </div>
+
+    <!--enlaces de los scripts:-->
+    <script src="JS/Carrito.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
